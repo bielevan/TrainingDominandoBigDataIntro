@@ -18,6 +18,6 @@ EXPORT personRecord := RECORD
     STRING5 ZipCode;
 END;
 
-EXPORT Person := DATASET('~class::ggb::intro::persons', personRecord, FLAT);
+EXPORT Person := DATASET('~class::gre::intro::persons', personRecord, FLAT);
 
 END;

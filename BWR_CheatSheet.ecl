@@ -74,9 +74,9 @@ COUNT(recset);    	// Equivale a: OUTPUT(COUNT(recset));
 // dedptbl;
 
 // Adicao de campo no dataset
-/*rec2 := RECORD
+rec2 := RECORD
   UNSIGNED   recid;  
-	STRING10   Firstname;
+  STRING10   Firstname;
 	STRING     Lastname;
 	STRING1    Gender;
 	UNSIGNED1  Age;
@@ -101,7 +101,7 @@ rec3 := RECORD
 	STRING    Lastname;
 	STRING    Email;
 END;
-*/
+
 // Declaracao DATASET
 /*
 ds2 := DATASET([{'ALYSSON','OLIVEIRA','alysson.oliveira@gmail.com'},
